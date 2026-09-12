@@ -97,7 +97,7 @@
     font-weight: 600;
     line-height: normal;
 }
-.button{
+.hero_button{
     display: flex;
     align-self: flex-start;
     padding: 10px 24px;
@@ -106,7 +106,7 @@
     border-radius: 41px;
     background: #E02C6D;
 }
-.button span{
+.hero_button span{
     color: #FFF;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Poppins;
@@ -134,3 +134,5 @@
     justify-content: space-evenly;
     padding-top: 100px;
 }
+
+/* Item Section */
