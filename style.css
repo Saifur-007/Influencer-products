@@ -29,6 +29,7 @@
     width: 243px;
     color: #3A3A3A;
     font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -51,8 +52,85 @@
     text-decoration: none;
     color: #3A3A3A;
     font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/* Hero Section */
+
+.hero_section{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Hero Section Content */
+
+.hero_section_content{
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+    gap: 16px;
+}
+.hero_section_content h1{
+    width: 582px;
+    color: #3A3A3A;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 134.615% */
+}
+.hero_section_content > p{
+    width: 505px;
+    color: #3A3A3A;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.button{
+    display: flex;
+    align-self: flex-start;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+}
+.button span{
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero_section_img{
+    width: 480px;
+    height: 480px;
+    display: flex;
+}
+.background_img{
+    position: absolute;
+    z-index: -1;
+}
+
+/* Logo Banners Section */
+
+.logos{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 100px;
 }
